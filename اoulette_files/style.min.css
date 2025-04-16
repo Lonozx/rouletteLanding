@@ -496,6 +496,7 @@ body {
 }
 .main__girl img {
   width: 74%;
+  filter: brightness(120%);
 }
 .main__wheel {
   position: absolute;
