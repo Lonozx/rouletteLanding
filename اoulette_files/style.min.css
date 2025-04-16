@@ -197,7 +197,7 @@ body {
 }
 @font-face {
   font-family: Myriad;
-  src: url(./fonts/Bahij_Myriad_Arabic-Regular.ttf) format("ttf");
+  src: url(../fonts/Myriad-Arabic-Regular.ttf) format("ttf");
   /* url(./fonts/Myriad-Arabic-Regular.woff) format("woff"); */
   font-weight: 400;
   font-style: normal;
@@ -213,7 +213,7 @@ body {
 }
 .body-wrap {
   min-height: 100%;
-  background: url(../img/bg.png) no-repeat;
+  background: url(./bg.png) no-repeat;
   -moz-background-size: 100%;
   background-size: 100%;
   background-position: 0 0;
@@ -263,7 +263,7 @@ body {
 }
 @media (max-width: 1024px) and (orientation: portrait) {
   .body-wrap {
-    background: url(../img/bg-mob.png) no-repeat;
+    background: url(./bg-mob.png) no-repeat;
     -moz-background-size: 100%;
     background-size: 100%;
     background-position: 0 0;
@@ -415,7 +415,7 @@ body {
 }
 .main__text_1 span {
   color: #fff;
-  font-size: 7.8125em;
+  font-size: 6.8125em;
   line-height: 1.1;
   font-weight: 400;
   text-shadow: 0 0.032em 0.064em rgba(0, 0, 0, 0.8);
@@ -432,8 +432,9 @@ body {
   position: relative;
   width: 29.6875em;
   height: 6.875em;
-  background: url(../img/btn.png) no-repeat;
+  background: url(./btn.png) no-repeat;
   -moz-background-size: contain;
+  /* border-radius: 55%; */
   background-size: contain;
   background-position: 50%;
   display: -webkit-box;
