@@ -213,7 +213,7 @@ body {
 }
 .body-wrap {
   min-height: 100%;
-  background: url(./background.png) no-repeat;
+  background: url(./background-min.png) no-repeat;
   -moz-background-size: 100%;
   background-size: 100%;
   background-position: 0 0;
