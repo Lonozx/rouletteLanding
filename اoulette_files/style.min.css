@@ -196,8 +196,37 @@ body {
   }
 }
 @font-face {
+  font-family: "Montserrat Light";
+  src: url("./fonts/Montserrat/Montserrat-Light.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("./fonts/Montserrat/Montserrat-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Semibold";
+  src: url("./fonts/Montserrat/Montserrat-SemiBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("./fonts/Montserrat/Montserrat-Bold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat ExtraBold";
+  src: url("./fonts/Montserrat/Montserrat-ExtraBold.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Montserrat Black";
+  src: url("./fonts/Montserrat/Montserrat-Black.ttf") format("ttf");
+}
+@font-face {
   font-family: Myriad;
-  src: url(../fonts/Myriad-Arabic-Regular.ttf) format("ttf");
+  src: url("./fonts/Myriad-Arabic-Regular.ttf") format("ttf");
   /* url(./fonts/Myriad-Arabic-Regular.woff) format("woff"); */
   font-weight: 400;
   font-style: normal;
@@ -205,15 +234,15 @@ body {
 }
 @font-face {
   font-family: Druk Cyr;
-  src: url(./fonts/DrukCyr-Medium.woff2) format("woff2"),
-    url(./fonts/DrukCyr-Medium.woff) format("woff");
+  src: url("./fonts/DrukCyr-Medium.woff2") format("woff2"),
+    url("./fonts/DrukCyr-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 .body-wrap {
   min-height: 100%;
-  background: url(./background-min.png) no-repeat;
+  background: url(./background-m.png) no-repeat;
   -moz-background-size: 100%;
   background-size: 100%;
   background-position: 0 0;
@@ -259,11 +288,193 @@ body {
     to(rgba(26, 1, 6, 0))
   );
   background: -moz-linear-gradient(bottom, #1a0106 20%, rgba(26, 1, 6, 0));
-  background: linear-gradient(0deg, #1a0106 20%, rgba(26, 1, 6, 0));
+  /* background: linear-gradient(0deg, #1a0106 20%, rgba(26, 1, 6, 0)); */
+  background: linear-gradient(to top, #1b1a24, rgba(255, 255, 255, 0));
+}
+.bottom {
+  /* padding: 70px 0; */
+  padding: 9% 0 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("img/backg-3.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.bottom:before {
+  content: "";
+  position: absolute;
+  inset-block-start: -1px;
+  inset-inline-start: 0;
+  height: 50px;
+  width: 100%;
+  display: block;
+  transition: 1s all;
+
+  z-index: 1;
+  pointer-events: none;
+}
+.bottom:after {
+  content: "";
+  position: absolute;
+  inset-block-end: -1px;
+  inset-inline-start: 0;
+  height: 50px;
+  width: 100%;
+  display: block;
+  transition: 1s all;
+  /* background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%); */
+  z-index: 1;
+  pointer-events: none;
+}
+.bottom .testimonials {
+  max-width: 730px;
+  padding: 40px;
+  border-radius: 18px;
+  backdrop-filter: blur(12px);
+  background: radial-gradient(
+    57.62% 58.03% at 65.09% 43.97%,
+    #150105 0%,
+    #150105 100%
+  );
+  border: 2px solid #cc9c0e;
+}
+.bottom .testimonials .top {
+  display: flex;
+  align-items: center;
+}
+.bottom .testimonials .top img {
+  display: inline-block;
+  height: 72px;
+  width: 72px;
+  object-fit: contain;
+  object-position: center;
+}
+.bottom .testimonials .top img:not(:first-of-type) {
+  margin-inline-start: -50px;
+  position: relative;
+}
+.bottom .testimonials .text-info {
+  color: #fff;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+  display: flex;
+}
+.bottom .testimonials .middle span {
+  display: inline-flex;
+  align-items: center;
+}
+.bottom .testimonials .testimonial {
+  width: 100%;
+  display: flex;
+  padding-block-start: 30px;
+}
+.bottom .testimonials .testimonial img {
+  height: 88px;
+  width: 88px;
+}
+.bottom .testimonials .testimonial .test-content {
+  padding-block-start: 15px;
+}
+.bottom .testimonials .testimonial .test-content .test-title {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.bottom .testimonials .testimonial .test-content .test-title span {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.4;
+  display: inline-block;
+}
+.bottom .testimonials .testimonial .test-content p {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0.7;
+  line-height: 130%;
+  margin: 10px 0;
+}
+.bottom .testimonials .testimonial .test-content .test-actions {
+  font-family: Montserrat, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 130%;
+  background: linear-gradient(172deg, #ffd910 0%, #ffd910 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bottom .testimonials .testimonial .test-content .test-actions span {
+  display: inline-flex;
+  align-items: center;
+  padding-inline-end: 24px;
+}
+.bottom .testimonials span {
+  cursor: pointer;
+}
+.btn-main,
+.step {
+  display: flex;
+}
+/* .main__girl {
+  background: linear-gradient(to top, #1b1a24, rgba(255, 255, 255, 0));
+} */
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 30em);
+  justify-content: space-between;
+  align-items: center;
+  padding-block-start: 20%;
+}
+.step {
+  align-items: center;
+  justify-content: center;
+}
+.step h4 {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  font-family: "Montserrat Semibold", sans-serif;
+  line-height: 150%;
+}
+.step h5 {
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+  font-family: "Montserrat Light", sans-serif;
+}
+.main__section-2 .main__btn_block {
+  margin-top: 10%;
+}
+@media screen and (max-width: 992px) {
+  .steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 55px;
+  }
+  .steps {
+    grid-column-gap: 10px;
+    align-items: flex-start;
+  }
+  .step {
+    display: flex;
+    flex-direction: column;
+  }
+  .step h4 {
+    font-size: 20px;
+    line-height: 27px;
+    margin: 10px auto 10px;
+  }
 }
 @media (max-width: 1024px) and (orientation: portrait) {
   .body-wrap {
-    background: url(./background-mobile.png) no-repeat;
+    background: url(./background-mob.png) no-repeat;
     -moz-background-size: 100%;
     background-size: 100%;
     background-position: 0 0;
@@ -421,7 +632,7 @@ body {
   text-shadow: 0 0.032em 0.064em rgba(0, 0, 0, 0.8);
 }
 .main__text_1 span.color {
-  color: #ffb027;
+  color: #ffd910;
   font-family: Druk Cyr;
   font-weight: 500;
 }
@@ -483,10 +694,12 @@ body {
 }
 .main__girl {
   position: absolute;
-  width: 79.875em;
+  /* width: 79.875em; */
+  width: 100%;
   /* left: 0.625em; */
   left: 0;
-  top: 8.25em;
+  /* top: 8.25em; */
+  top: 20.55em;
   z-index: 1;
   pointer-events: none;
   -webkit-user-select: none;
@@ -495,8 +708,15 @@ body {
   user-select: none;
 }
 .main__girl img {
-  width: 74%;
+  width: 50%;
   filter: brightness(120%);
+}
+.main__girl {
+  /* background: linear-gradient(to top, #1b1a24, rgba(255, 255, 255, 0));
+  
+  */
+
+  background: linear-gradient(to top, #150105, rgba(255, 255, 255, 0));
 }
 .main__wheel {
   position: absolute;
@@ -661,7 +881,7 @@ body {
   text-align: center;
 }
 .main__text_2 span {
-  color: #ffb027;
+  color: #ffd910;
   line-height: 1;
   font-size: 6.25em;
   font-weight: 400;
@@ -813,7 +1033,7 @@ body {
   text-shadow: 0 0.03333em 0.06667em rgba(0, 0, 0, 0.4);
 }
 .main__item_text span.color {
-  color: #ffb027;
+  color: #ffd910;
   font-weight: 700;
 }
 .main__number {
@@ -951,8 +1171,19 @@ body {
   -moz-animation: 1s b ease-in-out infinite alternate;
   animation: 1s b ease-in-out infinite alternate;
   z-index: 2;
+  /* display: flex;
+  justify-content: center; */
 }
 @media (max-width: 1024px) and (orientation: portrait) {
+  .bottom .testimonials .text-info {
+    font-size: 18px;
+  }
+  .bottom {
+    padding: 30px 10px;
+  }
+  .bottom .testimonials {
+    padding: 15px;
+  }
   .main__bonus_block {
     width: 90%;
     margin-left: auto;
