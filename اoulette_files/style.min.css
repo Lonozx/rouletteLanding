@@ -457,6 +457,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 55px;
+    padding: 0 10px;
   }
   .steps {
     grid-column-gap: 10px;
@@ -478,6 +479,13 @@ body {
     -moz-background-size: 100%;
     background-size: 100%;
     background-position: 0 0;
+  }
+  .main__girl img {
+    width: 68% !important;
+    filter: brightness(120%);
+  }
+  .steps {
+    padding-block-start: 0;
   }
 }
 .header {
@@ -1179,7 +1187,7 @@ body {
     font-size: 18px;
   }
   .bottom {
-    padding: 30px 10px;
+    padding: 100px 10px;
   }
   .bottom .testimonials {
     padding: 15px;
