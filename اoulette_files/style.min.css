@@ -244,6 +244,7 @@ body {
   font-display: swap;
 }
 .body-wrap {
+  scroll-behavior: smooth;
   min-height: 100%;
   background: url(./background-m.png) no-repeat;
   -moz-background-size: 100%;
@@ -646,8 +647,9 @@ body {
   color: #fff;
   font-size: 6.8125em;
   line-height: 1.1;
-  font-weight: 400;
+  font-weight: 700;
   text-shadow: 0 0.032em 0.064em rgba(0, 0, 0, 0.8);
+  font-family: "Montserrat";
 }
 .main__text_1 span.color {
   color: #ffd910;
@@ -698,8 +700,10 @@ body {
 .main__btn span {
   color: #fff;
   line-height: 1;
-  font-weight: 400;
-  font-size: 4.25em;
+  font-weight: 600;
+  /* font-size: 4.25em; */
+  font-size: 3.5em;
+  font-family: "Montserrat";
   text-shadow: 0 0.02941em 0.05882em rgba(0, 0, 0, 0.4);
 }
 .main__btn:hover {
@@ -1199,6 +1203,8 @@ body {
   z-index: 2;
   /* display: flex;
   justify-content: center; */
+  font-family: "Montserrat";
+  align-self: center;
 }
 @media (max-width: 1024px) and (orientation: portrait) {
   .bottom .testimonials .text-info {
@@ -1437,7 +1443,7 @@ body {
     color: #fff;
     line-height: 1;
     font-weight: 400;
-    font-size: 3.25em;
+    font-size: 3em;
     text-shadow: 0 0.02941em 0.05882em rgba(0, 0, 0, 0.4);
   }
   .footer__items {
