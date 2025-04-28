@@ -437,7 +437,7 @@ body {
   grid-template-columns: repeat(3, 30em);
   justify-content: space-between;
   align-items: center;
-  padding-block-start: 20%;
+  padding-block-start: 10%;
 }
 .step {
   align-items: center;
