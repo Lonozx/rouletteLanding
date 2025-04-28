@@ -395,7 +395,8 @@ body {
   display: inline-block;
 }
 .bottom .testimonials .testimonial .test-content p {
-  font-family: Montserrat, sans-serif;
+  /* font-family: Montserrat, sans-serif; */
+  font-family: "Tajawal";
   font-size: 18px;
   font-weight: 400;
   color: #fff;
@@ -424,6 +425,8 @@ body {
 .btn-main,
 .step {
   display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 /* .main__girl {
   background: linear-gradient(to top, #1b1a24, rgba(255, 255, 255, 0));
@@ -451,6 +454,7 @@ body {
   font-weight: 300;
   color: white;
   font-family: "Montserrat Light", sans-serif;
+  text-align: center;
 }
 .main__section-2 .main__btn_block {
   margin-top: 10%;
@@ -473,7 +477,10 @@ body {
   .step h4 {
     font-size: 20px;
     line-height: 27px;
-    margin: 10px auto 10px;
+    /* margin: 10px auto 10px;
+     */
+    margin: 2px;
+    text-align: center;
   }
 }
 @media (max-width: 1024px) and (orientation: portrait) {
@@ -653,6 +660,11 @@ body {
 /* .testimonials div {
   flex-direction: row-reverse;
 } */
+.step div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .main__btn {
   position: relative;
   width: 29.6875em;
@@ -1418,8 +1430,8 @@ body {
   }
   .main__btn {
     position: relative;
-    width: 25.6875em;
-    height: 4.875em;
+    width: 26.6875em;
+    height: 5.875em;
   }
   .main__btn span {
     color: #fff;
