@@ -194,6 +194,9 @@ body {
   #stage {
     display: none;
   }
+  .main__text_1 span {
+    font-size: 5.9em !important;
+  }
 }
 @font-face {
   font-family: "Montserrat Light";
@@ -457,7 +460,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 55px;
-    padding: 0 10px;
+    padding: 0 40px;
   }
   .steps {
     grid-column-gap: 10px;
@@ -647,6 +650,9 @@ body {
 .main__text_1 span.per {
   font-size: 5.625em;
 }
+/* .testimonials div {
+  flex-direction: row-reverse;
+} */
 .main__btn {
   position: relative;
   width: 29.6875em;
@@ -1081,7 +1087,7 @@ body {
   right: -2.375em;
   top: -30.9375em;
   width: 24.6875em;
-  z-index: 0;
+  z-index: -1;
   pointer-events: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -1216,7 +1222,8 @@ body {
   }
   .main__girl {
     font-size: 2rem;
-    left: -0.625em;
+    /* left: -0.625em; */
+    left: 0;
     top: 52.5em;
   }
   .main__wheel {
@@ -1261,7 +1268,8 @@ body {
     font-size: 2.6rem;
   }
   .main__section-2 {
-    margin-top: 156.25em;
+    /* margin-top: 156.25em; */
+    margin-top: 133.25em;
   }
   .main__text_2 {
     width: 70%;
@@ -1407,6 +1415,18 @@ body {
   .footer {
     margin-top: 12.5em;
     margin-bottom: 6.25em;
+  }
+  .main__btn {
+    position: relative;
+    width: 25.6875em;
+    height: 4.875em;
+  }
+  .main__btn span {
+    color: #fff;
+    line-height: 1;
+    font-weight: 400;
+    font-size: 3.25em;
+    text-shadow: 0 0.02941em 0.05882em rgba(0, 0, 0, 0.4);
   }
   .footer__items {
     width: 85%;
