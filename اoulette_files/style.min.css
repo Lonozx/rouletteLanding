@@ -523,6 +523,7 @@ body {
   position: relative;
   width: 14.875em;
   cursor: pointer;
+  visibility: hidden;
 }
 .header__logo_1 img {
   width: 100%;
@@ -552,6 +553,7 @@ body {
   width: 13.9375em;
   cursor: pointer;
   margin-bottom: 0.5em;
+  visibility: hidden;
 }
 .header__logo_2 img {
   width: 100%;
@@ -635,7 +637,8 @@ body {
   justify-content: flex-start;
   margin-left: auto;
   margin-right: 8.75em;
-  margin-top: 3.75em;
+  /* margin-top: 3.75em; */
+  margin-top: 10.75em;
   z-index: 2;
 }
 .main__text_1 {
