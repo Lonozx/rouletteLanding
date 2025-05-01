@@ -492,7 +492,7 @@ body {
     background-position: 0 0;
   }
   .main__girl img {
-    width: 68% !important;
+    width: 59% !important;
     filter: brightness(120%);
   }
   .steps {
@@ -741,7 +741,7 @@ body {
   user-select: none;
 }
 .main__girl img {
-  width: 50%;
+  width: 43%;
   filter: brightness(120%);
 }
 .main__girl {
