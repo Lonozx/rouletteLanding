@@ -461,7 +461,23 @@ body {
 .main__section-2 .main__btn_block {
   margin-top: 10%;
 }
+.registration_invite {
+  display: none;
+  flex-direction: column;
+  margin-top: 20em;
+  margin-right: 20em;
+}
+.button_handler {
+  display: flex;
+  gap: 15px;
+}
 @media screen and (max-width: 992px) {
+  .registration_invite {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80em;
+    margin-right: 0em;
+  }
   .steps {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -910,7 +926,10 @@ body {
   -moz-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  margin-top: 23.625em;
+  margin-top: 33.625em;
+}
+.desk-only {
+  display: block;
 }
 .main__text_2 {
   position: relative;
@@ -1294,7 +1313,8 @@ body {
   }
   .main__section-2 {
     /* margin-top: 156.25em; */
-    margin-top: 133.25em;
+    /* margin-top: 133.25em; */
+    margin-top: 40em;
   }
   .main__text_2 {
     width: 70%;
@@ -1437,13 +1457,17 @@ body {
   width: 100%;
 }
 @media (max-width: 1024px) and (orientation: portrait) {
+  .desk-only {
+    display: none;
+  }
   .footer {
     margin-top: 12.5em;
     margin-bottom: 6.25em;
   }
   .main__btn {
     position: relative;
-    width: 26.6875em;
+    /* width: 26.6875em; */
+    width: 21.6875em;
     height: 5.875em;
   }
   .main__btn span {
