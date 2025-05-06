@@ -487,7 +487,8 @@ body {
 }
 @media (max-width: 1024px) and (orientation: portrait) {
   .body-wrap {
-    background: url(./background-mob.png) no-repeat;
+    /* background: url(./background-mob.png) no-repeat; */
+    background: url(./bgblack_mob.png) no-repeat;
     -moz-background-size: 100%;
     background-size: 100%;
     background-position: 0 0;
