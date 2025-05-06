@@ -246,7 +246,8 @@ body {
 .body-wrap {
   scroll-behavior: smooth;
   min-height: 100%;
-  background: url(./background-m.png) no-repeat;
+  /* background: url(./background-m.png) no-repeat; */
+  background: url(./backbig.png) no-repeat;
   -moz-background-size: 100%;
   background-size: 100%;
   background-position: 0 0;
@@ -755,7 +756,8 @@ body {
   position: absolute;
   width: 36.875em;
   z-index: 0;
-  left: -10.25em;
+  /* left: -10.25em; */
+  left: -20.25em;
   top: 4.25em;
   pointer-events: none;
   -webkit-user-select: none;
