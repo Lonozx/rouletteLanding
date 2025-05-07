@@ -485,7 +485,8 @@ body {
   .registration_invite {
     display: flex;
     flex-direction: column;
-    margin-top: 80em;
+    /* margin-top: 80em; */
+    margin-top: 5em;
     margin-right: 0em;
   }
   .steps {
@@ -514,7 +515,8 @@ body {
 @media (max-width: 1024px) and (orientation: portrait) {
   .body-wrap {
     /* background: url(./background-mob.png) no-repeat; */
-    background: url(./bgblack_mob.png) no-repeat;
+    /* background: url(./bgblack_mob.png) no-repeat; */
+    background: none;
     -moz-background-size: 100%;
     background-size: 100%;
     background-position: 0 0;
@@ -551,7 +553,7 @@ body {
   position: relative;
   width: 14.875em;
   cursor: pointer;
-  visibility: hidden;
+  /* visibility: hidden; */
 }
 .header__logo_1 img {
   width: 100%;
