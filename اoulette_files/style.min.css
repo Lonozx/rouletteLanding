@@ -471,6 +471,16 @@ body {
   display: flex;
   gap: 15px;
 }
+.registration_invite {
+  /* background: #830e16;
+  background: linear-gradient(
+    0deg,
+    rgba(131, 14, 22, 1) 0%,
+    rgba(42, 14, 10, 1) 50%
+  );
+  /* width: 100vw; */
+  /* padding: 20px; */
+}
 @media screen and (max-width: 992px) {
   .registration_invite {
     display: flex;
