@@ -488,6 +488,13 @@ body {
     /* margin-top: 80em; */
     margin-top: 5em;
     margin-right: 0em;
+    /* height: 500px;
+    width: 100%; */
+  }
+  .registration_invite img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
   }
   .steps {
     display: grid;
