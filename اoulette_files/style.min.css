@@ -484,6 +484,12 @@ body {
   /* padding: 20px; */
 }
 @media screen and (max-width: 992px) {
+  .body-wrap {
+    background: none;
+  }
+  .desk-only {
+    display: none !important;
+  }
   .registration_invite {
     display: flex;
     flex-direction: column;
