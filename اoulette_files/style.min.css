@@ -448,14 +448,16 @@ body {
   font-size: 28px;
   font-weight: 600;
   color: white;
-  font-family: "Montserrat Semibold", sans-serif;
+  /* font-family: "Montserrat Semibold", sans-serif; */
+  font-family: "Noto Sans";
   line-height: 150%;
 }
 .step h5 {
   font-size: 20px;
   font-weight: 300;
   color: white;
-  font-family: "Montserrat Light", sans-serif;
+  /* font-family: "Montserrat Light", sans-serif; */
+  font-family: "Noto Sans";
   text-align: center;
 }
 .main__section-2 .main__btn_block {
@@ -689,7 +691,8 @@ body {
   line-height: 1.1;
   font-weight: 700;
   text-shadow: 0 0.032em 0.064em rgba(0, 0, 0, 0.8);
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
+  font-family: "Noto Sans";
 }
 .main__text_1 span.color {
   color: #ffd910;
@@ -751,7 +754,8 @@ body {
   font-weight: 600;
   /* font-size: 4.25em; */
   font-size: 3.5em;
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
+  font-family: "Noto Sans";
   text-shadow: 0 0.02941em 0.05882em rgba(0, 0, 0, 0.4);
 }
 .main__btn:hover {
@@ -1260,7 +1264,8 @@ body {
   z-index: 2;
   /* display: flex;
   justify-content: center; */
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
+  font-family: "Noto Sans";
   align-self: center;
 }
 @media (max-width: 1024px) and (orientation: portrait) {
