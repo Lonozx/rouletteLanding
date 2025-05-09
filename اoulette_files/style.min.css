@@ -494,7 +494,7 @@ body {
     width: 100%; */
   }
   .registration_invite img {
-    height: 450px;
+    height: 700px;
     width: 100%;
     object-fit: cover;
   }
@@ -1491,6 +1491,13 @@ body {
 }
 .footer__aged img {
   width: 100%;
+}
+@media (max-width: 500px) {
+  .registration_invite img {
+    height: 450px !important;
+    width: 100%;
+    object-fit: cover;
+  }
 }
 @media (max-width: 1024px) and (orientation: portrait) {
   .desk-only {
