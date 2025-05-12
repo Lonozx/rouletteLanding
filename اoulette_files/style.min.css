@@ -363,7 +363,8 @@ body {
 }
 .bottom .testimonials .text-info {
   color: #fff;
-  font-family: "Tajawal", sans-serif;
+  /* font-family: "Tajawal", sans-serif; */
+  font-family: "Noto Sans";
   font-weight: 400;
   display: flex;
 }
@@ -398,7 +399,8 @@ body {
 }
 .bottom .testimonials .testimonial .test-content p {
   /* font-family: Montserrat, sans-serif; */
-  font-family: "Tajawal";
+  /* font-family: "Tajawal"; */
+  font-family: "Noto Sans";
   font-size: 18px;
   font-weight: 400;
   color: #fff;
@@ -453,7 +455,7 @@ body {
   line-height: 150%;
 }
 
-#lang_reward {
+/* #lang_reward {
   font-family: "Tajawal";
 }
 #lang_withdraw {
@@ -479,7 +481,7 @@ body {
 }
 #lang_welcome {
   font-family: "Tajawal";
-}
+} */
 .step h5 {
   font-size: 20px;
   font-weight: 300;
