@@ -1320,6 +1320,9 @@ body {
   .bottom .testimonials .text-info {
     font-size: 18px;
   }
+  #main_girl {
+    max-width: 100%;
+  }
   .bottom {
     padding: 100px 10px;
   }
