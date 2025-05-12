@@ -452,6 +452,34 @@ body {
   font-family: "Noto Sans";
   line-height: 150%;
 }
+
+#lang_reward {
+  font-family: "Tajawal";
+}
+#lang_withdraw {
+  font-family: "Tajawal";
+}
+#lang_fastest {
+  font-family: "Tajawal";
+}
+#lang_safest {
+  font-family: "Tajawal";
+}
+#lang_simple {
+  font-family: "Tajawal";
+}
+#lang_secure {
+  font-family: "Tajawal";
+}
+#lang_registration {
+  font-family: "Tajawal";
+}
+#lang_upto {
+  font-family: "Tajawal";
+}
+#lang_welcome {
+  font-family: "Tajawal";
+}
 .step h5 {
   font-size: 20px;
   font-weight: 300;
