@@ -247,7 +247,7 @@ body {
   scroll-behavior: smooth;
   min-height: 100%;
   /* background: url(./background-m.png) no-repeat; */
-  background: url(./backbig.png) no-repeat;
+  /* background: url(./backbig.png) no-repeat; */
   -moz-background-size: 100%;
   background-size: 100%;
   background-position: 0 0;
@@ -421,7 +421,7 @@ body {
 .bottom .testimonials .testimonial .test-content .test-actions span {
   display: inline-flex;
   align-items: center;
-  padding-inline-end: 24px;
+  padding-inline-end: 10px;
 }
 .bottom .testimonials span {
   cursor: pointer;
@@ -494,9 +494,9 @@ body {
   margin-top: 10%;
 }
 .registration_invite {
-  display: none;
+  /* display: none; */
   flex-direction: column;
-  margin-top: 20em;
+  margin-top: -5em;
   margin-right: 20em;
 }
 .button_handler {
@@ -580,19 +580,20 @@ body {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 5em auto;
   -webkit-box-pack: justify;
   -moz-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: center;
   -webkit-box-align: end;
   -moz-box-align: end;
   -ms-flex-align: end;
   align-items: flex-end;
-  margin-top: 4.375em;
+  /* margin-top: 4.375em; */
   width: 35.625em;
   margin-left: auto;
-  margin-right: 8.75em;
-  z-index: 2;
+  /* margin-right: 8.75em; */
+  z-index: 100;
 }
 .header__logo_1 {
   position: relative;
@@ -689,8 +690,15 @@ body {
 .main__section-1 {
   z-index: 2;
 }
+#main_girl {
+  max-width: 90%;
+}
 .main__bonus_block {
-  position: relative;
+  /* position: relative; */
+  position: absolute;
+  /* display: none !important; */
+  top: 0;
+  right: 0%;
   width: 43.75em;
   display: -webkit-box;
   display: -moz-box;
@@ -711,10 +719,14 @@ body {
   -ms-flex-pack: start;
   justify-content: flex-start;
   margin-left: auto;
-  margin-right: 8.75em;
+  margin-right: 0.75em;
   /* margin-top: 3.75em; */
   margin-top: 10.75em;
   z-index: 2;
+}
+.bags {
+  margin-top: 1em;
+  max-width: 80% !important;
 }
 .main__text_1 {
   position: relative;
@@ -778,7 +790,7 @@ body {
   padding-top: 0.625em;
   -webkit-filter: drop-shadow(0 0.9375em 1.25em #ffd560);
   filter: drop-shadow(0 0.9375em 1.25em #ffd560);
-  margin-top: 4.375em;
+  margin-top: 1.375em;
   -webkit-transition: 0.3s ease-in-out;
   -moz-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
@@ -876,7 +888,7 @@ body {
 }
 .main__bg_item_2 {
   position: absolute;
-  left: 46em;
+  left: 25em;
   width: 27.375em;
   z-index: 2;
   top: -8.75em;
