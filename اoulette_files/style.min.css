@@ -517,9 +517,6 @@ body {
   .body-wrap {
     background: none;
   }
-  #main_girl {
-    max-width: 100%;
-  }
   .desk-only {
     display: none !important;
   }
@@ -1324,7 +1321,9 @@ body {
   .bottom .testimonials .text-info {
     font-size: 18px;
   }
-
+  #main_girl {
+    max-width: 100%;
+  }
   .bottom {
     padding: 100px 10px;
   }
@@ -1559,9 +1558,6 @@ body {
   .footer {
     margin-top: 12.5em;
     margin-bottom: 6.25em;
-  }
-  #main_girl {
-    max-width: 75%;
   }
   .main__btn {
     position: relative;
