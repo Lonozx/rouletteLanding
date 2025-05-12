@@ -110,6 +110,7 @@ switch (language) {
   case "ar":
     document.getElementById("lang_third-comment").innerText =
       "كازينو Jawhara Bet هو وجهة المقامرة الافتراضية الخاصة بي. الألعاب المصغرة متنوعة ، كل منها يقدم تحديًا فريدًا وإثارة. تخلق واقعية بيئة الكازينو ، جنبًا إلى جنب مع فرصة الفوز بجوائز رائعة ، تجربة لعب لا تقبل المنافسة. كازينو Jawhara Bet هو الفائز في كتابي!";
+
     break;
   case "en":
     document.getElementById("lang_third-comment").innerText =
@@ -141,5 +142,33 @@ switch (language) {
     document.getElementById("lang_comment").innerText = "يحب";
     break;
   case "en":
-    document.getElementById("lang_comment").innerText = "likes";
+    document.getElementById("lang_comment").innerText = "like";
+}
+switch (language) {
+  case "ar":
+    document.getElementById("lang_like_1").innerText = "تعليق";
+    break;
+  case "en":
+    document.getElementById("lang_like_1").innerText = "comment";
+}
+switch (language) {
+  case "ar":
+    document.getElementById("lang_comment_1").innerText = "يحب";
+    break;
+  case "en":
+    document.getElementById("lang_comment_1").innerText = "like";
+}
+switch (language) {
+  case "ar":
+    document.getElementById("lang_like_2").innerText = "تعليق";
+    break;
+  case "en":
+    document.getElementById("lang_like_2").innerText = "comment";
+}
+switch (language) {
+  case "ar":
+    document.getElementById("lang_comment_2").innerText = "يحب";
+    break;
+  case "en":
+    document.getElementById("lang_comment_2").innerText = "like";
 }
