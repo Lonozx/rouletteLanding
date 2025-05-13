@@ -3,6 +3,7 @@ let dashIndex = language.indexOf("-");
 if (dashIndex >= 0) {
   language = language.substring(0, dashIndex);
 }
+// let rtl = document.getElementById("revert");
 
 switch (language) {
   case "ar":
@@ -12,10 +13,33 @@ switch (language) {
       "../اoulette_files/reg_arabic.png";
     break;
 }
+
 switch (language) {
   case "ar":
     document.getElementById("lang_yes").innerText = "نعم ";
     document.getElementById("lang_yes").style.fontFamily = "Tajawal";
+    document.querySelector(".body-wrap").style.cssText =
+      " transform: scaleX(-1);";
+    document.querySelector(".bottom .testimonials .text-info").style.cssText =
+      " transform: scaleX(-1);";
+    document.querySelector(".bottom .testimonials .middle span").style.cssText =
+      "transform: scaleX(-1)";
+    document.querySelector(".header").style.cssText = " transform: scaleX(-1);";
+    document.querySelector(".footer__items").style.cssText =
+      " transform: scaleX(-1);";
+    document.querySelector("#reverse_0").style.cssText =
+      " transform: scaleX(-1);";
+    document.querySelector("#reverse").style.cssText =
+      " transform: scaleX(-1);";
+    document.querySelector(".footer__aged").style.cssText =
+      " transform: scaleX(-1);";
+    document.querySelector(".main__text_1 span.color").style.cssText =
+      " display: inline-block;";
+    // document.querySelector(".bottom .testimonials .text-info").style.cssText =
+    //   "justify-content: space-between;";
+    // document.querySelector(".bottom .testimonials .text-info").style.gap =
+    //   "5em";
+
     break;
   case "en":
     document.getElementById("lang_yes").innerText = "Yes";
