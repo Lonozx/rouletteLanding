@@ -728,6 +728,7 @@ body {
 .bags {
   margin-top: 1em;
   max-width: 60% !important;
+  margin-left: 5em;
 }
 .main__text_1 {
   position: relative;
