@@ -356,6 +356,10 @@ body {
   width: 72px;
   object-fit: contain;
   object-position: center;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-bottom: 4em;
+  margin-right: 4em;
 }
 .bottom .testimonials .top img:not(:first-of-type) {
   margin-inline-start: -50px;
@@ -378,8 +382,11 @@ body {
   padding-block-start: 30px;
 }
 .bottom .testimonials .testimonial img {
-  height: 88px;
-  width: 88px;
+  height: 66px;
+  width: 66px;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin: 20px 20px 20px 0;
 }
 .bottom .testimonials .testimonial .test-content {
   padding-block-start: 15px;
