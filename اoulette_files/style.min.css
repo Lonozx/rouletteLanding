@@ -163,7 +163,7 @@ video {
 html {
   background: #1a0106;
   font-size: 0.83333333vw;
-  font-family: Myriad;
+
   font-weight: 400;
 }
 body,
@@ -227,22 +227,7 @@ body {
   font-family: "Montserrat Black";
   src: url("./fonts/Montserrat/Montserrat-Black.ttf") format("ttf");
 }
-@font-face {
-  font-family: Myriad;
-  src: url("./fonts/Myriad-Arabic-Regular.ttf") format("ttf");
-  /* url(./fonts/Myriad-Arabic-Regular.woff) format("woff"); */
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: Druk Cyr;
-  src: url("./fonts/DrukCyr-Medium.woff2") format("woff2"),
-    url("./fonts/DrukCyr-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
+
 .body-wrap {
   scroll-behavior: smooth;
   min-height: 100%;
@@ -302,7 +287,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-image: url("img/backg-3.webp");
+  /* background-image: url("img/backg-3.webp"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
